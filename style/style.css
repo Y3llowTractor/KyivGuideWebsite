@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+
 }
 body{
 	background: #C7EFFF;
@@ -12,7 +13,49 @@ body{
 	from {opacity: 0;}
 	to {opacity: 1;}
 }
-
+@media (max-width: 800px) {
+  header{
+ 	flex-direction: column;
+  }
+  .center h1{
+  	font-size: 14vw !important;
+  }
+  .center h2{
+  	font-size: 14vw !important;
+  }
+  #guide{
+  	font-size: 14vw !important;
+  }
+  #arrow{
+  	width: 50vw;
+  	height: 4px;
+  }
+  #first-div-images{
+  	flex-direction: column;
+  }
+  #second-div-divs{
+  	flex-direction: column;
+  }
+  #third-div-last{
+  	flex-direction: column;
+  }
+  #third-div-first-divs{
+  	flex-direction: column;
+  }
+  #third-div-last-two{
+  	margin-top: 50px;
+  }
+  #third img{
+	width: 40vw;
+  }
+  .about-us-div-group{
+  	flex-direction: column;
+  	margin-top: 0;
+  }
+  .about-us-divs{
+  	margin-top: 20px;
+  }
+}
 header{
 	margin-top: 5%;
 	display: flex;
@@ -20,15 +63,15 @@ header{
 	padding-top: 20px;
 }
 .center h1{
-	margin: 0;
-	line-height:35px;
+	
+/*	line-height:35px;*/
 	font-size: 96px;
 }
 .center h2{
 	color: #32B1E2;
 	font-size: 96px;
-	margin: 0;
-	line-height: 150px;
+/*	margin: 0;*/
+/*	line-height: 150px;*/
 }
 #guide{
 	color: #FFDB59;
@@ -92,8 +135,9 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	background: white;
-	width: 100%;
 	height: 90px;
+	flex: 100%;
+
 }
 .logo{
 	height: 600px;
@@ -247,8 +291,6 @@ nav{
 	background: #F1FBFF;
 	text-align: center;
 	border-radius: 30px;
-	width: 75%;
-	margin-left: 10%;
 	padding: 50px;
 	margin-top: 30px;
 }
@@ -274,7 +316,6 @@ nav{
 }
 #third-div-first-two{
 	display: inline-block;
-	margin-top: 25px;
 }
 #third-div-first-three{
 	display: inline-block;
@@ -293,6 +334,7 @@ nav{
 }
 #third-div-last img{
 	padding: 30px;
+
 }
 #third-div-last-one{
 	background: #F1FBFF;
