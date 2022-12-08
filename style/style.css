@@ -221,7 +221,6 @@ nav{
 .links{
 	display: flex;
 	align-content: space-around;
-	margin-right: 30px;
 	align-items: center;
 }
 
@@ -250,6 +249,7 @@ nav{
 .next-text{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
+	font-size: 50px;
 	text-align: center;
 	margin-top: 50px;
 }
@@ -263,9 +263,8 @@ nav{
     margin-right: auto;
 }
 #second-div-one{
-	margin-top: 100px;
 	display: inline-block;
-	
+	margin-top: 20px;
 }
 
 #buss-text{
